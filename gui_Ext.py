@@ -120,7 +120,7 @@ class Statement:
 
 @dataclass
 class Staff(Customer):
-    position: str = Role.MANAGER
+    position: str = Role.RECEPTIONIST
     active: bool = True
 
 @dataclass
