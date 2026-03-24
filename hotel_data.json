@@ -1,0 +1,877 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@hotel.test",
+      "password": "admin123",
+      "role": "manager",
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "frontdesk",
+      "email": "frontdesk@hotel.test",
+      "password": "welcome123",
+      "role": "receptionist",
+      "active": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "room_number": "101",
+      "room_type": "Thường",
+      "view_type": "City",
+      "price_per_day": 80,
+      "status": "occupied"
+    },
+    {
+      "id": 2,
+      "room_number": "102",
+      "room_type": "LUX",
+      "view_type": "Sea",
+      "price_per_day": 120,
+      "status": "occupied"
+    },
+    {
+      "id": 3,
+      "room_number": "103",
+      "room_type": "LUX",
+      "view_type": "Sea",
+      "price_per_day": 180,
+      "status": "occupied"
+    },
+    {
+      "id": 4,
+      "room_number": "104",
+      "room_type": "Thường",
+      "view_type": "Garden",
+      "price_per_day": 70,
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "room_number": "201",
+      "room_type": "VIP",
+      "view_type": "City",
+      "price_per_day": 160,
+      "status": "occupied"
+    },
+    {
+      "id": 6,
+      "room_number": "202",
+      "room_type": "LUX",
+      "view_type": "City",
+      "price_per_day": 110,
+      "status": "occupied"
+    },
+    {
+      "id": 7,
+      "room_number": "203",
+      "room_type": "Thường",
+      "view_type": "City",
+      "price_per_day": 75,
+      "status": "occupied"
+    },
+    {
+      "id": 8,
+      "room_number": "204",
+      "room_type": "LUX",
+      "view_type": "Garden",
+      "price_per_day": 190,
+      "status": "occupied"
+    },
+    {
+      "id": 9,
+      "room_number": "205",
+      "room_type": "VIP",
+      "view_type": "Sea",
+      "price_per_day": 200,
+      "status": "occupied"
+    },
+    {
+      "id": 10,
+      "room_number": "301",
+      "room_type": "Thường",
+      "view_type": "City",
+      "price_per_day": 80,
+      "status": "occupied"
+    },
+    {
+      "id": 11,
+      "room_number": "302",
+      "room_type": "LUX",
+      "view_type": "Garden",
+      "price_per_day": 115,
+      "status": "available"
+    },
+    {
+      "id": 12,
+      "room_number": "303",
+      "room_type": "LUX",
+      "view_type": "City",
+      "price_per_day": 175,
+      "status": "available"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "full_name": "Alice Nguyen",
+      "phone": "+84-901-111-001",
+      "email": "alice@example.com",
+      "national_id": "VN100000001"
+    },
+    {
+      "id": 2,
+      "full_name": "Bob Tran",
+      "phone": "+84-901-111-002",
+      "email": "bob@example.com",
+      "national_id": "VN100000002"
+    },
+    {
+      "id": 3,
+      "full_name": "Phong Le",
+      "phone": "+84-901-111-003",
+      "email": "phong@example.com",
+      "national_id": "VN100000003"
+    },
+    {
+      "id": 4,
+      "full_name": "Linh Pham",
+      "phone": "+84-901-111-004",
+      "email": "linh@example.com",
+      "national_id": "VN100000004"
+    },
+    {
+      "id": 5,
+      "full_name": "Minh Hoang",
+      "phone": "+84-901-111-005",
+      "email": "minh@example.com",
+      "national_id": "VN100000005"
+    },
+    {
+      "id": 6,
+      "full_name": "Thu Nguyen",
+      "phone": "+84-901-111-006",
+      "email": "thu@example.com",
+      "national_id": "VN100000006"
+    },
+    {
+      "id": 7,
+      "full_name": "Nam Vo",
+      "phone": "+84-901-111-007",
+      "email": "nam@example.com",
+      "national_id": "VN100000007"
+    },
+    {
+      "id": 8,
+      "full_name": "Hoa Dang",
+      "phone": "+84-901-111-008",
+      "email": "hoa@example.com",
+      "national_id": "VN100000008"
+    },
+    {
+      "id": 9,
+      "full_name": "Tuan Bui",
+      "phone": "+84-901-111-009",
+      "email": "tuan@example.com",
+      "national_id": "VN100000009"
+    },
+    {
+      "id": 10,
+      "full_name": "Lan Trinh",
+      "phone": "+84-901-111-010",
+      "email": "lan@example.com",
+      "national_id": "VN100000010"
+    },
+    {
+      "id": 11,
+      "full_name": "Nguyen Van A",
+      "phone": "+84-901-222-001",
+      "email": "vana@example.com",
+      "national_id": "VN200000011"
+    },
+    {
+      "id": 12,
+      "full_name": "Tran Thi B",
+      "phone": "+84-901-222-002",
+      "email": "thib@example.com",
+      "national_id": "VN200000012"
+    },
+    {
+      "id": 13,
+      "full_name": "Le Van C",
+      "phone": "+84-901-222-003",
+      "email": "vanc@example.com",
+      "national_id": "VN200000013"
+    },
+    {
+      "id": 14,
+      "full_name": "Pham Thi D",
+      "phone": "+84-901-222-004",
+      "email": "thid@example.com",
+      "national_id": "VN200000014"
+    },
+    {
+      "id": 15,
+      "full_name": "Hoang Van E",
+      "phone": "+84-901-222-005",
+      "email": "vane@example.com",
+      "national_id": "VN200000015"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "customer_id": 1,
+      "room_id": 1,
+      "check_in_day": "2026-03-14",
+      "check_out_day": "2026-03-21",
+      "status": "checked_in",
+      "extend_count": 1
+    },
+    {
+      "id": 2,
+      "customer_id": 2,
+      "room_id": 2,
+      "check_in_day": "2026-03-15",
+      "check_out_day": "2026-03-18",
+      "status": "checked_in"
+    },
+    {
+      "id": 3,
+      "customer_id": 3,
+      "room_id": 3,
+      "check_in_day": "2026-03-13",
+      "check_out_day": "2026-03-19",
+      "status": "checked_in"
+    },
+    {
+      "id": 4,
+      "customer_id": 4,
+      "room_id": 5,
+      "check_in_day": "2026-03-12",
+      "check_out_day": "2026-03-17",
+      "status": "checked_in"
+    },
+    {
+      "id": 5,
+      "customer_id": 5,
+      "room_id": 6,
+      "check_in_day": "2026-03-14",
+      "check_out_day": "2026-03-21",
+      "status": "checked_in"
+    },
+    {
+      "id": 6,
+      "customer_id": 6,
+      "room_id": 7,
+      "check_in_day": "2026-03-15",
+      "check_out_day": "2026-03-22",
+      "status": "checked_in"
+    },
+    {
+      "id": 7,
+      "customer_id": 7,
+      "room_id": 8,
+      "check_in_day": "2026-03-16",
+      "check_out_day": "2026-03-20",
+      "status": "checked_in"
+    },
+    {
+      "id": 8,
+      "customer_id": 8,
+      "room_id": 9,
+      "check_in_day": "2026-03-14",
+      "check_out_day": "2026-03-19",
+      "status": "checked_in"
+    },
+    {
+      "id": 9,
+      "customer_id": 9,
+      "room_id": 10,
+      "check_in_day": "2026-03-15",
+      "check_out_day": "2026-03-18",
+      "status": "checked_in"
+    },
+    {
+      "id": 10,
+      "customer_id": 10,
+      "room_id": 11,
+      "check_in_day": "2026-03-20",
+      "check_out_day": "2026-03-25",
+      "status": "reserved"
+    },
+    {
+      "id": 11,
+      "customer_id": 11,
+      "room_id": 11,
+      "check_in_day": "2026-03-22",
+      "check_out_day": "2026-03-25",
+      "status": "reserved"
+    },
+    {
+      "id": 12,
+      "customer_id": 12,
+      "room_id": 12,
+      "check_in_day": "2026-03-22",
+      "check_out_day": "2026-03-24",
+      "status": "reserved"
+    },
+    {
+      "id": 13,
+      "customer_id": 13,
+      "room_id": 11,
+      "check_in_day": "2026-03-26",
+      "check_out_day": "2026-03-30",
+      "status": "reserved"
+    },
+    {
+      "id": 14,
+      "customer_id": 14,
+      "room_id": 12,
+      "check_in_day": "2026-03-25",
+      "check_out_day": "2026-03-28",
+      "status": "reserved"
+    },
+    {
+      "id": 15,
+      "customer_id": 15,
+      "room_id": 11,
+      "check_in_day": "2026-04-01",
+      "check_out_day": "2026-04-05",
+      "status": "reserved"
+    }
+  ],
+  "stays": [
+    {
+      "id": 1,
+      "booking_id": 1,
+      "room_id": 1,
+      "checked_in_at": "2026-03-14T14:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 2,
+      "booking_id": 2,
+      "room_id": 2,
+      "checked_in_at": "2026-03-15T15:30:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 3,
+      "booking_id": 3,
+      "room_id": 3,
+      "checked_in_at": "2026-03-13T09:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 4,
+      "booking_id": 4,
+      "room_id": 5,
+      "checked_in_at": "2026-03-12T13:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 5,
+      "booking_id": 5,
+      "room_id": 6,
+      "checked_in_at": "2026-03-14T16:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 6,
+      "booking_id": 6,
+      "room_id": 7,
+      "checked_in_at": "2026-03-15T10:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 7,
+      "booking_id": 7,
+      "room_id": 8,
+      "checked_in_at": "2026-03-16T11:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 8,
+      "booking_id": 8,
+      "room_id": 9,
+      "checked_in_at": "2026-03-14T17:00:00",
+      "checked_out_at": null,
+      "active": true
+    },
+    {
+      "id": 9,
+      "booking_id": 9,
+      "room_id": 10,
+      "checked_in_at": "2026-03-15T08:00:00",
+      "checked_out_at": null,
+      "active": true
+    }
+  ],
+  "service_items": [
+    {
+      "id": 1,
+      "name": "Ăn sáng",
+      "price_per_unit": 5.0,
+      "category": "service"
+    },
+    {
+      "id": 2,
+      "name": "Ăn trưa",
+      "price_per_unit": 5.0,
+      "category": "service"
+    },
+    {
+      "id": 3,
+      "name": "Ăn tối",
+      "price_per_unit": 7.5,
+      "category": "service"
+    },
+    {
+      "id": 4,
+      "name": "Giặt ủi",
+      "price_per_unit": 7.0,
+      "category": "service"
+    },
+    {
+      "id": 5,
+      "name": "Dọn phòng",
+      "price_per_unit": 15.0,
+      "category": "service"
+    },
+    {
+      "id": 6,
+      "name": "Đưa đón",
+      "price_per_unit": 15.0,
+      "category": "service"
+    },
+    {
+      "id": 7,
+      "name": "Thư giãn",
+      "price_per_unit": 24.0,
+      "category": "service"
+    },
+    {
+      "id": 8,
+      "name": "Check-out muộn",
+      "price_per_unit": 24.0,
+      "category": "service"
+    }
+  ],
+  "service_usages": [
+    {
+      "id": 1,
+      "stay_id": 1,
+      "service_item_id": 1,
+      "quantity": 2,
+      "note": "",
+      "created_at": "2026-03-15T08:00:00"
+    },
+    {
+      "id": 2,
+      "stay_id": 1,
+      "service_item_id": 4,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-15T10:00:00"
+    },
+    {
+      "id": 3,
+      "stay_id": 2,
+      "service_item_id": 1,
+      "quantity": 3,
+      "note": "",
+      "created_at": "2026-03-16T08:30:00"
+    },
+    {
+      "id": 4,
+      "stay_id": 2,
+      "service_item_id": 5,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-16T14:00:00"
+    },
+    {
+      "id": 5,
+      "stay_id": 3,
+      "service_item_id": 6,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-14T11:00:00"
+    },
+    {
+      "id": 6,
+      "stay_id": 4,
+      "service_item_id": 3,
+      "quantity": 2,
+      "note": "",
+      "created_at": "2026-03-13T19:00:00"
+    },
+    {
+      "id": 7,
+      "stay_id": 5,
+      "service_item_id": 2,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-15T12:00:00"
+    },
+    {
+      "id": 8,
+      "stay_id": 6,
+      "service_item_id": 7,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-16T09:00:00"
+    },
+    {
+      "id": 9,
+      "stay_id": 2,
+      "service_item_id": 1,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-22T19:50:38.206691"
+    },
+    {
+      "id": 10,
+      "stay_id": 2,
+      "service_item_id": 1,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-22T19:50:40.397585"
+    },
+    {
+      "id": 11,
+      "stay_id": 2,
+      "service_item_id": 2,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-22T19:50:41.993231"
+    },
+    {
+      "id": 12,
+      "stay_id": 2,
+      "service_item_id": 3,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-22T19:50:43.621043"
+    },
+    {
+      "id": 13,
+      "stay_id": 2,
+      "service_item_id": 2,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-22T19:50:44.439981"
+    },
+    {
+      "id": 14,
+      "stay_id": 1,
+      "service_item_id": 1,
+      "quantity": 1,
+      "note": "",
+      "created_at": "2026-03-22T19:52:18.594310"
+    }
+  ],
+  "statements": [
+    {
+      "id": 10,
+      "stay_id": 1,
+      "room_amount": 480,
+      "service_amount": 22.0,
+      "total_amount": 502.0,
+      "status": "unpaid",
+      "created_at": "2026-03-18T10:00:00",
+      "paid_at": null
+    },
+    {
+      "id": 2,
+      "stay_id": 2,
+      "room_amount": 360.0,
+      "service_amount": 30.0,
+      "total_amount": 390.0,
+      "status": "paid",
+      "created_at": "2026-03-16T10:00:00",
+      "paid_at": "2026-03-16T11:00:00"
+    },
+    {
+      "id": 3,
+      "stay_id": 3,
+      "room_amount": 1080,
+      "service_amount": 15.0,
+      "total_amount": 1095.0,
+      "status": "unpaid",
+      "created_at": "2026-03-14T10:00:00",
+      "paid_at": null
+    },
+    {
+      "id": 4,
+      "stay_id": 4,
+      "room_amount": 800.0,
+      "service_amount": 15.0,
+      "total_amount": 815.0,
+      "status": "paid",
+      "created_at": "2026-03-13T14:00:00",
+      "paid_at": "2026-03-13T15:00:00"
+    },
+    {
+      "id": 5,
+      "stay_id": 5,
+      "room_amount": 770,
+      "service_amount": 5.0,
+      "total_amount": 775.0,
+      "status": "unpaid",
+      "created_at": "2026-03-15T13:00:00",
+      "paid_at": null
+    },
+    {
+      "id": 6,
+      "stay_id": 6,
+      "room_amount": 525,
+      "service_amount": 24.0,
+      "total_amount": 549.0,
+      "status": "unpaid",
+      "created_at": "2026-03-16T09:00:00",
+      "paid_at": null
+    },
+    {
+      "id": 7,
+      "stay_id": 7,
+      "room_amount": 190.0,
+      "service_amount": 0.0,
+      "total_amount": 190.0,
+      "status": "paid",
+      "created_at": "2026-03-17T11:00:00",
+      "paid_at": "2026-03-17T12:00:00"
+    },
+    {
+      "id": 8,
+      "stay_id": 8,
+      "room_amount": 1000,
+      "service_amount": 0,
+      "total_amount": 1000,
+      "status": "unpaid",
+      "created_at": "2026-03-15T17:00:00",
+      "paid_at": null
+    },
+    {
+      "id": 9,
+      "stay_id": 9,
+      "room_amount": 80.0,
+      "service_amount": 5.0,
+      "total_amount": 85.0,
+      "status": "paid",
+      "created_at": "2026-03-16T08:00:00",
+      "paid_at": "2026-03-16T09:00:00"
+    }
+  ],
+  "staffs": [
+    {
+      "id": 1,
+      "full_name": "Linh Pham",
+      "phone": "+84-934-001-001",
+      "email": "linh@hotel.test",
+      "national_id": "VN200000001",
+      "position": "Lễ tân",
+      "active": true
+    },
+    {
+      "id": 2,
+      "full_name": "Minh Le",
+      "phone": "+84-934-001-002",
+      "email": "minh@hotel.test",
+      "national_id": "VN200000002",
+      "position": "Lễ tân",
+      "active": true
+    },
+    {
+      "id": 3,
+      "full_name": "Hao Nam",
+      "phone": "+84-934-001-003",
+      "email": "hao@hotel.test",
+      "national_id": "VN200000003",
+      "position": "Làm phòng",
+      "active": true
+    },
+    {
+      "id": 4,
+      "full_name": "Tuan Anh",
+      "phone": "+84-934-001-004",
+      "email": "tuan@hotel.test",
+      "national_id": "VN200000004",
+      "position": "Lễ tân",
+      "active": true
+    },
+    {
+      "id": 5,
+      "full_name": "Bao Chau",
+      "phone": "+84-934-001-005",
+      "email": "bao@hotel.test",
+      "national_id": "VN200000005",
+      "position": "Làm phòng",
+      "active": true
+    },
+    {
+      "id": 6,
+      "full_name": "Khanh Duy",
+      "phone": "+84-934-001-006",
+      "email": "khanh@hotel.test",
+      "national_id": "VN200000006",
+      "position": "Dọn KVCC",
+      "active": true
+    },
+    {
+      "id": 7,
+      "full_name": "Truc Lam",
+      "phone": "+84-934-001-007",
+      "email": "truc@hotel.test",
+      "national_id": "VN200000007",
+      "position": "Bếp",
+      "active": true
+    },
+    {
+      "id": 8,
+      "full_name": "Phu Quoc",
+      "phone": "+84-934-001-008",
+      "email": "phu@hotel.test",
+      "national_id": "VN200000008",
+      "position": "Làm phòng",
+      "active": true
+    },
+    {
+      "id": 9,
+      "full_name": "Mai Anh",
+      "phone": "+84-934-001-009",
+      "email": "mai@hotel.test",
+      "national_id": "VN200000009",
+      "position": "Lễ tân",
+      "active": true
+    },
+    {
+      "id": 10,
+      "full_name": "Duc Thinh",
+      "phone": "+84-934-001-010",
+      "email": "duc@hotel.test",
+      "national_id": "VN200000010",
+      "position": "Dọn KVCC",
+      "active": true
+    },
+    {
+      "id": 11,
+      "full_name": "Van Thanh",
+      "phone": "+84-934-001-011",
+      "email": "van@hotel.test",
+      "national_id": "VN200000011",
+      "position": "Bếp",
+      "active": true
+    }
+  ],
+  "shifts": [
+    {
+      "id": 1,
+      "staff_id": 2,
+      "weekday": 0,
+      "shift_slot": 0,
+      "status": "assigned",
+      "note": "",
+      "closed_at": null
+    },
+    {
+      "id": 2,
+      "staff_id": 4,
+      "weekday": 0,
+      "shift_slot": 1,
+      "status": "assigned",
+      "note": "",
+      "closed_at": null
+    },
+    {
+      "id": 3,
+      "staff_id": 1,
+      "weekday": 1,
+      "shift_slot": 0,
+      "status": "assigned",
+      "note": "",
+      "closed_at": null
+    },
+    {
+      "id": 4,
+      "staff_id": 3,
+      "weekday": 1,
+      "shift_slot": 1,
+      "status": "handed_over",
+      "note": "Handover done",
+      "closed_at": null
+    },
+    {
+      "id": 5,
+      "staff_id": 5,
+      "weekday": 2,
+      "shift_slot": 0,
+      "status": "assigned",
+      "note": "",
+      "closed_at": null
+    },
+    {
+      "id": 6,
+      "staff_id": 6,
+      "weekday": 2,
+      "shift_slot": 2,
+      "status": "assigned",
+      "note": "",
+      "closed_at": null
+    },
+    {
+      "id": 7,
+      "staff_id": 7,
+      "weekday": 3,
+      "shift_slot": 0,
+      "status": "assigned",
+      "note": "",
+      "closed_at": null
+    }
+  ],
+  "last_login": {
+    "email": "admin@hotel.test",
+    "password": "admin123"
+  },
+  "settings": {
+    "room_types": [
+      "Thường",
+      "VIP",
+      "LUX"
+    ],
+    "booking_sources": [
+      "online",
+      "offline",
+      "walk-in"
+    ],
+    "shift_slots": [
+      "Morning",
+      "Evening",
+      "Night"
+    ]
+  },
+  "counters": {
+    "users": 3,
+    "rooms": 13,
+    "customers": 16,
+    "bookings": 16,
+    "stays": 10,
+    "service_items": 9,
+    "service_usages": 19,
+    "statements": 11,
+    "staffs": 12,
+    "shifts": 10
+  }
+}
