@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>490</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+	icon-size:	18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>banhrang.png</normaloff>banhrang.png</iconset>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>440</y>
+      <width>21</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_3 {
+	background-color: #FFFFFF;
+	border: 1px solid #c7c7c7;
+	border-radius: 7px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>141</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #333333;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>KHÁCH SẠN 4TL</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>111</width>
+      <height>273</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+	text-align: left;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}
+	</string>
+       </property>
+       <property name="text">
+        <string>Phòng</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+	text-align: left;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Booking</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Khách Hàng</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Check in/out</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Thanh Toán</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Dịch Vụ</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_25">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Nhân Viên</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_26">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Thông Số </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: #333333; /* Màu nền đen xám */
+    color: white;
+    border-radius: 20px;       /* Bằng 1/2 chiều cao 40px để tạo hình tròn */
+    font-weight: bold;
+    font-size: 16px;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>151</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	border-top: 1px solid black;
+	border-right:1px solid white;
+	border-left:1px solid white;
+	border-bottom:3px solid #c7c7c7;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>510</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	font-size: 13px; 
+	font-weight: bold; 
+	color: #4c4c4c;
+}</string>
+    </property>
+    <property name="text">
+     <string>Quản lý</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	background-color: #B9CEF4;
+	border: 1px solid white
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>540</y>
+      <width>81</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	font-size: 11px; 
+	color: #888888;
+}</string>
+    </property>
+    <property name="text">
+     <string>namnhk25406
+@st.uel.edu.vn</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: #B9CEF4;
+    color: #0055A5;
+    border-radius: 20px;       /* Bằng 1/2 chiều cao 40px để tạo hình tròn */
+    font-weight: bold;
+    font-size: 14px;
+    qproperty-alignment: 'AlignCenter';
+	border: 3px solid #0055A5;
+}</string>
+    </property>
+    <property name="text">
+     <string>UEL</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>490</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	border:1px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>451</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QScrollArea {
+    border: none;
+	background-color: white;
+}
+#scrollAreaWidgetContents_2 {
+    background-color: white;
+	border-top: 2px solid #D1D5DB;
+	border-right:2px solid #D1D5DB;
+	border-left:1px solid #D1D5DB;
+	border-bottom:1px solid #D1D5DB;
+}
+/* 1. Thiết lập tổng thể thanh cuộn */
+QScrollBar:vertical {
+    border: none;
+    background: #F2F2F2; /* Màu nền xám nhạt bạn đã chọn */
+    width: 10px;         /* Làm thanh cuộn mảnh lại cho tinh tế */
+    margin: 0px 0px 0px 0px;
+}
+
+/* 2. Phần cục lăn (Handle) */
+QScrollBar::handle:vertical {
+    background: #A6A6A6; /* Màu xanh nhạt thương hiệu của bạn */
+    min-height: 30px;
+    border-radius: 5px;  /* Bo tròn hai đầu cục lăn */
+}
+
+/* 3. Hiệu ứng khi di chuột vào cục lăn */
+QScrollBar::handle:vertical:hover {
+    background: #999999; /* Đổi sang xanh đậm UEL khi hover */
+}
+
+/* 4. Xóa bỏ hai nút mũi tên ở đầu và cuối (Làm kiểu hiện đại) */
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px;
+}
+
+/* 5. Xóa vùng nền phía trên và dưới cục lăn khi nhấn vào */
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-235</y>
+       <width>441</width>
+       <height>696</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QFrame" name="frame_27">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_27 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>ansang.jpg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ăn sáng</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_8">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$5.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_28">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_28 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_57">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>191</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	font-family: &quot;Montserrat&quot;;
+	font-size:20px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>antrua.jpg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_16">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$5.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_17">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ăn trưa</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_29">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>220</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_29 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>antoi.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ăn tối</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$7.50</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QFrame" name="frame_30">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_30 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_14">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>giatui.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_21">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Giặt ủi</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$7.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_31">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_31 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_82">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>210</y>
+             <width>51</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	border:none;
+	color: #828282;
+	background-color: transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>label</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_15">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>donphong.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$7.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_23">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Dọn phòng</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_32">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>220</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_32 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_62">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>191</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	font-family: &quot;Montserrat&quot;;
+	font-size:20px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_26">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>vanchuyen.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_24">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$15.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_25">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Đưa đón</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame_21">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_21 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_29">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$15.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_27">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thư giãn</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_28">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>thugian.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_33">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_33 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_52">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>191</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	font-family: &quot;Montserrat&quot;;
+	font-size:20px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_32">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>$24.00</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_31">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	border: 2px solid #DADADA;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>checkoutmuon.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_15">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+           </property>
+           <property name="text">
+            <string>Thêm</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_30">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size: 13pt;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	padding-left: 2px;
+	padding-bottom:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Check-out muộn</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_22">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>220</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_22 {
+	background-color: transparent;
+	border:1px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_37">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>191</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	font-family: &quot;Montserrat&quot;;
+	font-size:20px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>30</y>
+      <width>161</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_4 {
+	background-color: #FFFFFF;
+	border: 1px;
+	border-radius: 2px;
+	border-top: 2px solid #D1D5DB;
+	border-right:2px solid #D1D5DB;
+	border-left:1px solid #D1D5DB;
+	border-bottom:1px solid #D1D5DB;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+	background-color: #dfe2e8;
+	border: 1px solid #D1D5DB;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>26</x>
+        <y>-1</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border:none;
+	color: #374151;
+	background-color: transparent;
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Tên</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>5</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border:none;
+	color: #374151;
+	background-color: transparent;
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Số lượng</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-1</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size:16px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Chi tiết</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>380</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+	background-color: #e4e7ec;
+	border: 1px solid #D1D5DB;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border:none;
+	color: #4B5563;
+	background-color: transparent;	
+}</string>
+      </property>
+      <property name="text">
+       <string>Thuế</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border:none;
+	color: #4B5563;
+	background-color: transparent;	
+}</string>
+      </property>
+      <property name="text">
+       <string>Giá chưa thuế</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>0</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+	border:none;
+	color: #4B5563;
+	background-color: transparent;	
+}</string>
+      </property>
+      <property name="text">
+       <string>$50.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border:none;
+	color: #2563EB;
+	text-decoration: underline;
+	background-color: transparent;	
+	padding-left: 4px;
+}</string>
+      </property>
+      <property name="text">
+       <string>1.5%</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+	border:none;
+	color: #4B5563;
+	background-color: transparent;	
+}</string>
+      </property>
+      <property name="text">
+       <string>$0.75</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_40">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>430</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size:14px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+	padding-left:2px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Tổng cộng</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>430</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	border:none;
+	color: #2563EB;
+	background-color: transparent;	
+	padding-left:3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>$50.00</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>121</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit {
+	background-color: transparent;
+	border:1px;
+}
+	</string>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Giặt ủi                      1&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Ăn sáng                   1&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Đưa đón                  1&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>450</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	font-family: &quot;Montserrat&quot;;
+	font-size:11px;
+	font-weight:none;
+	background-color:transparent;
+	border:1px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Phòng 102</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_28">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>340</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:10pt;
+	color: #2563EB;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+     </property>
+     <property name="text">
+      <string>Xóa</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>529</y>
+      <width>651</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_5 {
+	background-color: #f8f8f8;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_16">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>0</y>
+       <width>111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:10pt;
+	color: #4c4c4c;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+     </property>
+     <property name="text">
+      <string>Lễ tân (406113)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_36">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>0</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font-size: 14px; 
+	font-weight: bold; 
+	color: #4c4c4c;
+}</string>
+     </property>
+     <property name="text">
+      <string>Liên hệ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_17">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>0</y>
+       <width>111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:10pt;
+	color: #4c4c4c;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+     </property>
+     <property name="text">
+      <string>Taxi (406116)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>0</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:10pt;
+	color: #4c4c4c;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+     </property>
+     <property name="text">
+      <string>Dịch vụ (406114)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_27">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>0</y>
+       <width>111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-family: &quot;Montserrat&quot;;
+	font-size:10pt;
+	color: #4c4c4c;
+	font-weight:400;
+	background-color:transparent;
+	border:1px;
+	border-radius:5px;
+	padding-left:3px;
+}
+QPushButton:hover {
+	text-decoration: underline;
+}</string>
+     </property>
+     <property name="text">
+      <string> Bếp (406115)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>20</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	border-radius:1px;
+	background-color:white;
+	font-family: &quot;Montserrat&quot;;
+	font-size: 12px;
+	padding-left:10px;
+	border-top: 1px solid #adadad;
+	border-right:1px solid #adadad;
+	border-left:1px;
+	border-bottom:1px;
+}</string>
+    </property>
+    <property name="currentText">
+     <string>Chọn phòng</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Chọn phòng</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 101</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 102</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 103</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 104</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 105</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 201</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 202</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 203</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 204</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phòng 205</string>
+     </property>
+    </item>
+   </widget>
+   <zorder>textBrowser</zorder>
+   <zorder>textBrowser_3</zorder>
+   <zorder>textBrowser_2</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>frame_3</zorder>
+   <zorder>label_10</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_12</zorder>
+   <zorder>scrollArea_2</zorder>
+   <zorder>frame_4</zorder>
+   <zorder>frame_5</zorder>
+   <zorder>comboBox</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

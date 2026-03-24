@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>379</width>
+    <height>139</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size:18px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Thứ mấy</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>20</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-family: &quot;Montserrat&quot;;
+	font-size:18px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Ca nào</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+	padding-left:10px;
+	border-radius: 10px;
+	border: 1px solid #dfdfdf;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>không</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hai</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ba</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tư</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Năm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sáu</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+	padding-left:10px;
+	border-radius: 10px;
+	border: 1px solid #dfdfdf;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>không</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sáng</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chiều</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Đêm 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Đêm 2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_38">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>90</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 11pt &quot;Monteserrat&quot;;
+	color: white				;
+	border-radius: 5px;
+	background-color: #2D2D2D; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Chốt ca</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

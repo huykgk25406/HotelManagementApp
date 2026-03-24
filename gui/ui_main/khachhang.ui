@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget {
+	background-color: #F5F5F5;
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>110</y>
+      <width>611</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 15px;
+	border: 1px solid #A6A6A6;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>571</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget {
+    background-color: #efefef; /* Màu xám nhạt giống nền ảnh bạn gửi */
+    border: none; /* Xóa viền ngoài để khít tuyệt đối */
+    gridline-color: #efefef; /* Màu đường kẻ mảnh, nhẹ nhàng */
+    color: #333333;
+	font-family: &quot;Montserrat&quot;; /* Chọn phông chữ hiện đại */
+    font-size: 14px;                 /* Kích thước chữ vừa mắt */
+}
+
+/* Chỉnh các ô nội dung */
+QTableWidget::item {
+    padding-left: 15px; /* Tạo khoảng trống bên trái cho chữ không bị dính viền */
+    border-bottom: 1px solid #efefef; /* Đường gạch dưới mỗi hàng */
+}</string>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>95</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Hùng Phong</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>0933713746</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>phongdhhk25406@st.uel.edu.vn</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>074207000931</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Hào Nam</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>097456789</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>nam@st.uel.edu.vn</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>074201030023</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 9px;
+	border: 1px solid #c7c7c7;
+	color: #606060;
+	font-family:&quot;Montserrat&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Customer
+ ID</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>130</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 9px;
+	border: 1px solid #c7c7c7;
+	color: #606060;
+	font-family:&quot;Montserrat&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>SĐT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>130</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 9px;
+	border: 1px solid #c7c7c7;
+	color: #606060;
+	font-family:&quot;Montserrat&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>EMAIL</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>130</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 9px;
+	border: 1px solid #c7c7c7;
+	color: #606060;
+	font-family:&quot;Montserrat&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>TÊN</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>130</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 9px;
+	border: 1px solid #c7c7c7;
+	color: #606060;
+	font-family:&quot;Montserrat&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>ID/CCCD</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>130</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #efefef;
+	border-radius: 9px;
+	border: 1px solid #c7c7c7;
+	color: #606060;
+	font-family:&quot;Montserrat&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>CHI TIẾT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #2D2D2D;
+}</string>
+    </property>
+    <property name="text">
+     <string>Thêm khách hàng</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	border-radius: 10px;
+	border: 1px;
+	background-color: #efefef;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Tìm khách hàng</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>50</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton {
+	border-radius: 10px;
+	border: 1px;
+	background-color: #efefef;
+
+}</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>kinhlupnew.jpg</normaloff>kinhlupnew.jpg</iconset>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>55</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton {
+	border-radius: 10px;
+	border: 1px;
+	background-color: #efefef;
+
+}</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>cong.jpg</normaloff>cong.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>190</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #efefef;
+	border:none;
+	color: #333333;
+	font-family: &quot;Montserrat&quot;; /* Chọn phông chữ hiện đại */
+    font-size: 14px; 
+	padding-bottom:2px;
+}
+QPushButton:hover {
+	color:black;
+	font-size:16px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Xem</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>220</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #efefef;
+	border:none;
+	color: #333333;
+	font-family: &quot;Montserrat&quot;; /* Chọn phông chữ hiện đại */
+    font-size: 14px; 
+	padding-bottom:2px;
+}
+QPushButton:hover {
+	color:black;
+	font-size:16px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Xem</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>490</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	border:1px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>540</y>
+      <width>81</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	font-size: 11px; 
+	color: #888888;
+}</string>
+    </property>
+    <property name="text">
+     <string>namnhk25406
+@st.uel.edu.vn</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>510</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	font-size: 13px; 
+	font-weight: bold; 
+	color: #4c4c4c;
+}</string>
+    </property>
+    <property name="text">
+     <string>Quản lý</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>141</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #333333;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>KHÁCH SẠN 4TL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>490</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+	icon-size:	18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>banhrang.png</normaloff>banhrang.png</iconset>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>111</width>
+      <height>273</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+	text-align: left;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}
+	</string>
+       </property>
+       <property name="text">
+        <string>Phòng</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+	text-align: left;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Booking</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Khách Hàng</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Check in/out</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Thanh Toán</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Dịch Vụ</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_25">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Nhân Viên</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignLeft">
+      <widget class="QPushButton" name="pushButton_26">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:12pt;
+	font-weight: bold;
+}
+QPushButton:hover {
+	background-color:white;
+	border:1px;
+	font-family: &quot;Montserrat&quot;;
+	font-size:13pt;
+	font-weight: bold;
+	text-align: left;
+}</string>
+       </property>
+       <property name="text">
+        <string>Thông Số </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: #B9CEF4;
+    color: #0055A5;
+    border-radius: 20px;       /* Bằng 1/2 chiều cao 40px để tạo hình tròn */
+    font-weight: bold;
+    font-size: 14px;
+    qproperty-alignment: 'AlignCenter';
+	border: 3px solid #0055A5;
+}</string>
+    </property>
+    <property name="text">
+     <string>UEL</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>151</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	border-top: 1px solid black;
+	border-right:1px solid white;
+	border-left:1px solid white;
+	border-bottom:3px solid #c7c7c7;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: #333333; /* Màu nền đen xám */
+    color: white;
+    border-radius: 20px;       /* Bằng 1/2 chiều cao 40px để tạo hình tròn */
+    font-weight: bold;
+    font-size: 16px;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	background-color: #B9CEF4;
+	border: 1px solid white
+}</string>
+    </property>
+   </widget>
+   <zorder>textBrowser</zorder>
+   <zorder>textBrowser_2</zorder>
+   <zorder>textBrowser_3</zorder>
+   <zorder>label</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>toolButton</zorder>
+   <zorder>toolButton_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_11</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="kinhlup">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../DOAN/kinhlup.png</normaloff>../../../../../DOAN/kinhlup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tìm kiếm</string>
+   </property>
+  </action>
+  <action name="kinhlup_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../DOAN/kinhlup.png</normaloff>../../../../../DOAN/kinhlup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tìm kiếm</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
