@@ -18,7 +18,7 @@ def _now():
 # status constants
 
 class Role:
-    MANAGER = "Lễ tân"
+    MANAGER = "Quản lý"
     RECEPTIONIST = "Lễ tân"
 
 class RoomStatus:
